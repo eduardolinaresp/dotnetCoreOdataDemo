@@ -6,7 +6,7 @@ using Microsoft.AspNet.OData;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace WeatherAPI2.Controllers
+namespace WeatherAPI.Controllers
 {
     [Route("odata/[controller]")]
     [ApiExplorerSettings(IgnoreApi = false)]

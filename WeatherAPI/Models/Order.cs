@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace WeatherAPI2.Models
+namespace WeatherAPI.Models
 {
-    public class ZipCode
+    public class Order
     {
+
         public int Id { get; set; }
-        public string DisplayName { get; set; }
+        public string Title { get; set; }
     }
 }

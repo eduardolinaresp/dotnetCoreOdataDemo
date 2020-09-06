@@ -6,9 +6,9 @@ using Microsoft.AspNet.OData;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using WeatherAPI2.Models;
+using WeatherAPI.Models;
 
-namespace WeatherAPI2.Controllers
+namespace WeatherAPI.Controllers
 {
     [Route("odata/[controller]")]
     [ApiController]

@@ -11,9 +11,9 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Net.Http.Headers;
 using Microsoft.OData.Edm;
 using Microsoft.OpenApi.Models;
-using WeatherAPI2.Models;
+using WeatherAPI.Models;
 
-namespace WeatherAPI2
+namespace WeatherAPI
 {
     public class Startup
     {
